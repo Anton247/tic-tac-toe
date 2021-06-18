@@ -61,3 +61,17 @@ body{
     height: 30px;
     background: url("Нолик.png") center / cover;
 }
+
+.score{
+    color: #fff;
+    margin: 0 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI' ;
+}
+
+.turn{
+    width: 10px;
+    height: 10px;
+    background-color: #0E754A;
+    border-radius: 50%;
+}
