@@ -31,7 +31,7 @@ body{
     cursor: pointer;
 }
 .cell:hover{
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.2);
 }
 
 .title{
@@ -60,6 +60,14 @@ body{
     width: 30px;
     height: 30px;
     background: url("Нолик.png") center / cover;
+}
+
+.cell.icon-o,
+.cell.icon-x {
+    width: 33.33%;
+    height: 100%;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
 }
 
 .score{
